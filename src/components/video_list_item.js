@@ -2,7 +2,8 @@ import React from 'react';
 
 const VideoListItem = ({video}) =>{
 	const thumbnail =  video.snippet.thumbnails.default.url;
-	 return
+	console.log(thumbnail) 
+	return
 	( 	
 	 <li className="list__item">
 		<div className="media">

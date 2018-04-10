@@ -17,14 +17,17 @@ class App extends Component{
     this.state = { videos: [] };
 
     YTSearch({key: API_KEY, term: "aurora australis"},(videos) => {
-      this.setState({videos});
+        console.log(videos);
+	this.setState({videos});
     });
   }
   render(){
+    console.log('ha')
     return <div>
       <SearchBar  />
+       Video {this.state.videos}
       <VideoList videos = {this.state.videos} />
-    </div>;
+    </div>
   }
 }
 
