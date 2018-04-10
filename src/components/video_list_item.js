@@ -1,19 +1,21 @@
 import React from 'react';
 
 const VideoListItem = ({video}) =>{
+	
+
 	const thumbnail =  video.snippet.thumbnails.default.url;
-	console.log(thumbnail) 
-	return
-	( 	
-	 <li className="list__item">
-		<div className="media">
-			<div className="media__thumbnail">
-			<img className="thumbnail" src={thumbnail} />
+
+
+	return( 	
+	 	<li className="list__item">
+			<div className="media">
+				<div className="media__thumbnail">
+				<img className="thumbnail" src={thumbnail} />
+				</div>
+				<div className="media__heading">{video.snippet.title}</div>
 			</div>
-			<div className="media__heading">{video.snippet.title}</div>
-		</div>
-	</li>
+		</li>
 	);
-}
+};
 
 export default VideoListItem;
