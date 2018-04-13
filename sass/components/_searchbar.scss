@@ -1,0 +1,9 @@
+.searchbar{
+    width: 100vw;
+    display: flex;
+    &__input{
+        margin: 0 auto;
+        width: 50%;
+        height: 1.5rem;
+    }
+}
