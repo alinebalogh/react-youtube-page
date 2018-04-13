@@ -1,9 +1,23 @@
 .searchbar{
+    //  margin-top: 2.5rem;
+    padding: 1rem;
     width: 100vw;
     display: flex;
+    background: $nav-gradient;
+
     &__input{
+        font-size: 1.6rem;
         margin: 0 auto;
-        width: 50%;
-        height: 1.5rem;
+        padding: 5px 8px;
+        width: 35%;
+        height: 3.5rem;
+        border: none;
+        border-radius: 10px;
+        background: white;
+        color: $darkest-gray;
+    }
+    &__input:focus{
+        outline: none;
+        border-bottom: 1px $primary-green-color;
     }
 }
