@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,900');
+
 @import "abstract/functions";
 @import "abstract/mixins";
 @import "abstract/variables";
@@ -5,3 +7,4 @@
 @import "base/base"; 
 
 @import "components/searchbar";
+@import "components/video-detail";
