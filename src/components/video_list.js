@@ -12,9 +12,11 @@ const VideoList =  (props) => {
     });
 	console.log("Im going to videoItem")
     return(
-        <ul className="list__group">
-	    {videoItem} 
-        </ul>
+        <div className="list">
+            <ul className="list__group">
+            {videoItem} 
+            </ul>
+        </div>
     );
 }
 

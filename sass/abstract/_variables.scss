@@ -1,7 +1,7 @@
 //COLORS
 
-$primary-green-color: #72AF22;
-$secondary-green-color: #BEDA9A;
+$primary-color: #413659;
+$secondary-color: #524868;
 
 $white: #FFFFFF;
 
@@ -13,4 +13,4 @@ $darkest-gray: darken($gray, 63%) !default;
 
 //GRADIENTS
 
-$nav-gradient: linear-gradient(to bottom right, #72AF22, #BEDA9A);
+$nav-gradient: linear-gradient(to bottom right, $primary-color, $secondary-color);

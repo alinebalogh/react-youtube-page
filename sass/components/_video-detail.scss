@@ -6,9 +6,11 @@
     justify-content: center;
     align-items: center;
     padding: 1.5rem;
+    background-color: rgba($black,.1);
     &__media{
         width: 70%;
         height: 100%;
+        margin-top: 3rem;
     }
 
     &__iframe{
@@ -18,8 +20,22 @@
     }
 
     &__detail{
-        align-self: flex-start;
-        font-size: 1.8rem;
+        width: 70%;
         margin: 1rem;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        &-title{
+            margin: 1rem 0;
+            font-size: 2rem;
+            font-weight: 400;
+            color: $darkest-gray;
+        }
+        &-description{
+            font-size: 1.6rem;
+            font-weight: 300;
+            color: $dark-gray;
+        }
     }
 }

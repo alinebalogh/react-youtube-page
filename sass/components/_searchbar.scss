@@ -12,7 +12,7 @@
     }
 
     &__input{
-        display: inline;
+        // display: inline;
         font-size: 1.6rem;
         margin: 0 auto;
         padding: 5px 32px 5px 8px;
@@ -25,7 +25,7 @@
     }
     &__input:focus{
         outline: none;
-        border-bottom: 1px $primary-green-color;
+        border-bottom: 1px $primary-color;
     }
     &__input::-webkit-input-placeholder{
         color: $gray;
