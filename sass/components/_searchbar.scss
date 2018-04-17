@@ -9,6 +9,9 @@
     &__wrap{
         position: relative;
         width: 40%;
+	@include respond(tab-port) { // width < 900?
+            width:80%;
+        }
     }
 
     &__input{
