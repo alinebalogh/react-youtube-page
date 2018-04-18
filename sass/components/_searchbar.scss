@@ -16,6 +16,7 @@
 
     &__input{
         // display: inline;
+        position: relative;
         font-size: 1.6rem;
         margin: 0 auto;
         padding: 5px 32px 5px 8px;
@@ -41,7 +42,7 @@
     & span{
         position: absolute;
         top: 50%;
-        left: 93%;
+        left: 90%;
         transform: translate(0,-50%);
 
     }

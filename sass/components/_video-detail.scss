@@ -7,28 +7,33 @@
     align-items: center;
     padding: 1.5rem;
     background-color: rgba($black,.1);
-    &__media{
-        width: 70%;
-        height: 100%;
-        margin-top: 3rem;
+    @include respond(tab-port) { 
+        padding: 0;
+    }
+    &__media{   
+        margin-top: 2rem;
     }
 
     &__iframe{
-        width: 100%;  
-        max-height: 200vh;
-        height:500px;
-	@include respond(tab-port) { 
-            width: 100vw;
-	    height: auto;
+        width: 65vw;  
+        max-height: 45rem;
+        height: 45rem;
+	    @include respond(tab-port) { 
+            width: 90vw;
+            height: auto;
         }
     }
 
     &__detail{
-        width: 70%;
+        width: 65vw;
         margin: 1rem;
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        @include respond(tab-port) { 
+            width: 90vw;
+        }
+
 
         &-title{
             margin: 1rem 0;

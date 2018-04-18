@@ -4,7 +4,7 @@
     flex-direction: row;
     background-color: $primary-color;
     width: 100%;
-    min-height: 15rem;
+    // min-height: 15rem;
 
     &__group{
         display: flex;
@@ -12,7 +12,7 @@
         flex-direction: row;
         justify-content: center;
         @include respond(tab-port) { // width < 900?
-            flex-direction: collumn;
+            // flex-direction: column;
         }
     }
     &__thumbnail-wrap{
@@ -25,9 +25,8 @@
         width: 30rem;
 
         @include respond(tab-port) { // width < 900?
-            max-width: 100vw;
-            width: 95%;
-	    height: auto;
+            width: 70vw;
+	        height: 15rem;
         }
     }
 }
