@@ -16,8 +16,9 @@
 
     &__iframe{
         width: 65vw;  
-        max-height: 45rem;
-        height: 45rem;
+        // max-height: 45rem;
+        height: 70vh;
+        border: none;
 	    @include respond(tab-port) { 
             width: 90vw;
             height: auto;
